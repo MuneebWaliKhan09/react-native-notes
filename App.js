@@ -11,6 +11,7 @@ import TextFlatListDemo3 from './src/components/TextFlatListDemo3';
 import InputsEvents from './src/components/InputsEvents';
 import OTPDemo from './src/components/OTPDemo';
 import Buttons from './src/components/Buttons';
+import Modals from './src/components/Modals';
 
 const App = () => {
 
@@ -62,8 +63,11 @@ const App = () => {
       {/* OTP DEMO   */}
       {/* <OTPDemo/> */}
       
-      {/* OTP DEMO   */}
-      <Buttons/>
+      {/* Buttons Rect native   */}
+      {/* <Buttons/> */}
+
+      {/* Modals react native   */}
+      <Modals/>
 
 
     </>
