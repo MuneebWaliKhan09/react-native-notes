@@ -12,6 +12,7 @@ import InputsEvents from './src/components/InputsEvents';
 import OTPDemo from './src/components/OTPDemo';
 import Buttons from './src/components/Buttons';
 import Modals from './src/components/Modals';
+import Responsiveness from './src/components/Responsiveness';
 
 const App = () => {
 
@@ -67,7 +68,10 @@ const App = () => {
       {/* <Buttons/> */}
 
       {/* Modals react native   */}
-      <Modals/>
+      {/* <Modals/> */}
+
+      {/* Responsivness react native   */}
+      <Responsiveness/>
 
 
     </>
